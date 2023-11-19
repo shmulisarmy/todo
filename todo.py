@@ -3,7 +3,7 @@ todo_amount = int(input("how many todos would you like to add today? "))
 todos = []
 
 for i in range(1, todo_amount+1):
-    todo_text = input("todo #{}: ".format(i))
+    todo_text = input(f"todo #{i}: ")
     todos.append(todo_text)
 
 while not all(i == 'done' for i in todos):
