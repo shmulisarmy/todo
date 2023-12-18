@@ -17,3 +17,6 @@ while not all(i == 'done' for i in todos):
 for i in range(len(todos)):
     print(f"#{i+1} {todos[i]}")
 print('you have completed all of your todos for today')
+
+for i in range(10):
+    print('hello')
